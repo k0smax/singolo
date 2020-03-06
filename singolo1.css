@@ -1,0 +1,205 @@
+body {
+	width: 1020px;
+	background-size: cover;
+	text-align: justify;
+}
+
+header {
+	height: 89px;
+	width: 100%;
+	margin: 0;
+	background-color: #2d303a;
+	display: flex;
+	text-transform: uppercase;
+}
+
+.logo_star {
+  display: inline;
+  color: #f06c64;
+  top: 0;
+  left: 0;
+}
+
+li a {
+	color: white;
+	text-decoration: none;
+	font-family: "Lato";
+	font-weight: 700;
+	text-align: left;
+}
+
+li a:hover {
+	color: #f06c64;
+	text-decoration: none;
+}
+
+.logo_header {
+	width: 115px;
+	height: 20px;
+	padding: 40px 0 0 38px;
+	font-size: 25px;
+	line-height: 6px;
+	color: #ffffff;
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	text-align: left;
+}
+
+.navbar ul {
+	display: flex;
+	width: 372px;
+	height: 9px;
+	font-size: 12px;
+	line-height: 6px;
+	margin: 46px 40px 36px 456px;
+	justify-content: space-between;
+}
+
+.header_bottom {
+	width: 1020px;
+	height: 6px;
+	background-color: #323746;
+}
+
+.slider {
+	width: 1020px;
+	height: 600px;
+	background-color: #f06c64;
+}
+
+.iphone_horizontal {
+	display: flex;
+	position: absolute;
+	margin: 69px 80px 0 360px;
+	width: 580px;
+	height: 580px;
+}
+
+.iphone_vertical {
+	display: flex;
+	position: absolute;
+	width: 581px;
+	height: 580px;
+	margin: -17px 0px 20px 110px
+}
+
+.slider_bottom {
+	width: 1020px;
+	height: 6px;
+	background-color: #ea676b;
+}
+
+.services {
+	width: 1020px;
+	height: 501px;
+	background-color: #f2f2f2;
+}
+.services_block {
+	display: flex;
+	height: 230px;
+	
+}
+.services_block>div {
+	//border: 1px solid black;
+	flex-grow: 1;
+}
+h1 {
+	width: 174px;
+	height: 23px;
+ 	margin: 68px 809px 22px 40px;
+  	font-size: 30px;
+	line-height: 18px;
+	color: #666d89;
+	font-family: "Lato";
+	font-weight: 900;
+	text-align: justify;
+}
+
+div>span {
+	width: 40%;
+	position: relative;
+	left: 41px;
+	top: 2px;
+}
+
+.services_block>div>div {
+	display: flex;
+	height: 50%;
+}
+
+.logo_services {
+
+}
+
+div>p:last-child {
+	width: 220px;
+	height: 52px;
+	font-size: 12px;
+	line-height: 22px;
+	color: #767e9e;
+	font-family: "Lato";
+	font-weight: 400;
+	margin-top: 9px;
+}
+
+div>p:first-child {
+	font-size: 18px;
+	line-height: 18px;
+	color: #666d89;
+	font-family: "Lato";
+	font-weight: 900;
+	text-align: justify;
+}
+
+#descript_serv {
+	width: 940px;
+	height: 57px;
+	font-size: 18px;
+	line-height: 30px;
+	color: #767e9e;
+	font-family: "Lato";
+	font-weight: 300;
+	text-align: justify;
+	margin: 0 40px 40px 41px;
+}
+
+.first_column>div, .second_column>div, .third_column>div {
+	height: 116px;
+	margin-top: 8px;
+}
+
+.second_column>div {
+	position: relative;
+	right: 21px;
+}
+
+.third_column>div {
+	position: relative;
+	right: 41px;
+}
+
+.arrow_left {
+	position: absolute;
+	top: 376px;
+    left: 42px;
+}
+
+.arrow_right {
+	position: absolute;
+	top: 373px;
+    left: 964px;
+    transform: rotate(180deg);
+}
+
+.arrow_left a:hover svg{
+	width: 40px;
+	height: 40px;
+	margin-top: -8px; 
+	margin-left: -20px;
+}
+
+.arrow_right a:hover svg{
+	width: 40px;
+	height: 40px;
+	margin-bottom: -8px; 
+}
